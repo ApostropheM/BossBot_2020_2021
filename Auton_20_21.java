@@ -123,7 +123,7 @@ public class Auton_20_21 extends LinearOpMode {
             fd(0.25,0,1);
             drift(0.5, 500);
             fd(0.25,0,0.75);
-            //numRings = countRings();
+            numRings = countRings();
             telemetry.addData("rings", numRings);
             telemetry.update();
             drift(0.5, 500);
